@@ -15,12 +15,22 @@ body {
   font-size: 14px;
   font-weight: 400;
 }
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .container {
   max-width: 1230px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+}
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 55px;
 }
 .header {
   padding-top: 13px;
