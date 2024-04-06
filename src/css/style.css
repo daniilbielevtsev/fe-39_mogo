@@ -9,6 +9,21 @@
   --fontTextSecondary: "Roboto", sans-serif;
 }
 /*=======================GLOBAL=========================================*/
+.container {
+  max-width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #898d8c;
+  border: 3px #95e1d3;
+}
+.nav-item1 {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  color: #f38181;
+}
 body {
   font-family: var(--fontTextPrimary);
   color: var(--fontColorPrimary);
@@ -19,6 +34,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 17px;
 }
 .container {
   max-width: 1230px;
@@ -31,6 +47,7 @@ body {
   display: flex;
   align-items: center;
   gap: 55px;
+  margin-right: 0px;
 }
 .header {
   padding-top: 13px;
@@ -49,23 +66,64 @@ body {
   color: var(--colorHover);
 }
 /*========================SERVICES===============================================*/
+.services {
+  padding-top: 100px;
+  max-width: 1200px;
+  margin: auto;
+}
 .services-title {
+  margin-bottom: 65px;
   font-size: 30px;
   font-weight: 700;
   font-variant: all-small-caps;
   text-align: center;
 }
+.service {
+  max-width: 330px;
+}
+.services-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 70px;
+  padding-top: 65px;
+}
 .service-title {
   font-variant: small-caps;
+}
+.services-heading {
+  display: flex;
+  gap: 20px;
 }
 .service-text {
   color: var(--colorTextSecondary);
   font-family: var(--fontTextSecondary);
   font-size: 15px;
   line-height: 1.47; /* 146.667% */
+  padding-left: 57px;
 }
 /*========================TEAM===============================================*/
-
+.team-title {
+  margin-bottom: 45px;
+}
+.team-text {
+  margin-bottom: 27px;
+}
+.team-members {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding-top: 27px;
+  padding-bottom: 80px;
+}
+.teammete {
+  width: 380px;
+  height: 546px;
+}
+.teammete-name {
+  padding-top: 30px;
+  padding-bottom: 11px;
+}
 .team-title {
   font-size: 30px;
   font-weight: 700;
@@ -91,7 +149,11 @@ body {
   font-weight: 300;
 }
 /*========================FOOTER===============================================*/
-
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .footer-info {
   color: var(--colorHover);
 }
@@ -110,6 +172,21 @@ body {
   font-weight: 700;
   font-variant: all-small-caps;
 }
+.subscribe-mail {
+  padding-top: 12px;
+  padding-left: 10px;
+  padding-bottom: 12px;
+  stroke-width: 1px;
+  stroke: #b6b6b6;
+}
+.subscribe-button {
+  padding-left: 38px;
+  padding-right: 38px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border: none;
+  background: #95e1d3;
+}
 .servises {
   padding-bottom: 100px;
 }
@@ -119,4 +196,191 @@ body {
 .footer {
   padding-top: 10px;
   padding-bottom: 10px;
+}
+.subscribe {
+  display: flex;
+  justify-content: end;
+}
+/*=================ABOUT======================================*/
+:root {
+  --colorTextPrimary: #333;
+  --colorTextSecondary: #b6b6b6;
+  --colorTextTertiary: #95e1d3;
+  --colorHover: #f38181;
+  --colorTextButton: #fff;
+  /*Шрифти*/
+  --fontTextPrimary: "Montserrat", sans-serif;
+  --fontTextSecondary: "Roboto", sans-serif;
+}
+/*============================Container=======================*/
+.container1 {
+  max-width: 1200px;
+  margin: auto;
+  background-color: #ecfcf9;
+}
+/*=============================HEADER======================================*/
+.header1 {
+  padding-bottom: 15px;
+  border: 2px gray;
+}
+.header-container1 {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.logo-text1 {
+  font-size: 40px;
+  font-weight: 800;
+  width: 40px;
+  margin-left: 20px;
+  color: #999797;
+}
+.nav-list1 {
+  display: flex;
+  align-items: center;
+  gap: 55px;
+  margin-right: 0px;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+.nav-link {
+  color: #362682;
+}
+/*=====================================Main============================*/
+.list11 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  gap: 7px;
+}
+.subscribe-button1 {
+  padding-left: 38px;
+  padding-right: 38px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border: none;
+  background: #ad99ea;
+  border: 2px solid #333;
+  border-radius: 10px;
+}
+/*================================team.html=========================*/
+.team11 {
+  max-width: 1350px;
+  margin: auto;
+  background-color: cadetblue;
+  margin-top: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+  border: 5px solid gray;
+}
+.team-members1 {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+/* .team-text1 {
+  display: flex;
+  justify-content: center;
+  max-width: 1200px;
+  margin: auto;
+} */
+.team-title1 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  font-weight: 800;
+  font-size: 30px;
+  height: 30px;
+  color: rgb(0, 0, 0);
+  border-radius: 10px;
+  border: 5px solid rgb(92, 92, 92);
+  margin-left: 540px;
+  margin-right: 540px;
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+  background-color: chartreuse;
+}
+.teammete-photo1 {
+  border-radius: 10px;
+  border: 5px solid gray;
+}
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 55px;
+  margin-right: 0px;
+}
+.header {
+  padding-top: 13px;
+  padding-right: 80px;
+}
+/*=======================HEADER=========================================*/
+.logo-text {
+  color: var(--colorTextTertiary);
+  font-size: 30px;
+  font-weight: 700;
+}
+.nav-link {
+  color: var(--colorTextTertiary);
+}
+.nav-link:hover {
+  color: var(--colorHover);
+}
+.header111 {
+  max-width: 1300px;
+  margin: auto;
+  border-radius: 10px;
+  padding-left: 50px;
+  border: 5px solid gray;
+  background-color: cadetblue;
+  margin-bottom: 0px;
+  margin-top: 30px;
+}
+.header-nav1 {
+  padding-bottom: 25px;
+  padding-right: 10px;
+}
+.logo-text11 {
+  color: #333;
+  font-size: 50px;
+  font-weight: 800;
+  padding-bottom: 15px;
+}
+.team11 {
+  margin-bottom: 10px;
+}
+.footerr {
+  max-width: 1350px;
+  margin: auto;
+  background-color: cadetblue;
+  border: 5px solid gray;
+  border-radius: 10px;
+  padding-bottom: 40px;
+  margin-bottom: 30px;
+}
+.llist {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
+  padding-top: 30px;
+  color: #898d8c;
+}
+.bottonn {
+  color: #898d8c;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 21px;
+  padding-right: 21px;
+  border: 4px #333 solid;
+  border-radius: 8px;
+  font-weight: 900;
+  font-size: 15px;
+}
+.itemm {
+  color: #898d8c;
 }
